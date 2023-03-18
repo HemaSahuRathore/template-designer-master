@@ -1,0 +1,20 @@
+{
+  "parser": "@typescript-eslint/parser", // Specifies the ESLint parser
+  "parserOptions": {
+    "ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module" // Allows for the use of imports
+  },
+  "extends": [
+    "prettier",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+    // "plugin:@typescript-eslint/recommended"
+    // "plugin:unicorn/recommended", // used for find naming convetion
+  ],
+  "rules": {
+    "eqeqeq": "error",
+    "require-await": "warn",
+    "array-bracket-newline": "warn",
+    "curly": "error"
+  }
+}

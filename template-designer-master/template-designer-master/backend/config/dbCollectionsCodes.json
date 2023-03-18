@@ -1,0 +1,304 @@
+{
+    "DocJournal": {
+        "collectionName": "DocJournal"
+    },
+    "Wiki": {
+        "Learnings": {
+            "journalCode": "lrj",
+            "collectionName": "Learnings",
+            "docType": "Learning",
+            "docCode": "lr",
+            "docContainerCode": "lrc"
+        }
+    },
+    "Glossary": {
+        "journalCode": "gyj",
+        "collectionName": "Glossary",
+        "docType": "Glossary",
+        "docCode": "gy",
+        "docContainerCode": "gyc"
+    },
+    "Announcements": {
+        "journalCode": "anj",
+        "collectionName": "Announcements",
+        "docType": "Announcements",
+        "docCode": "an",
+        "docContainerCode": "anc"
+    },
+    "Study": {
+        "collectionName": "Studies",
+        "journalCode": "sdj",
+        "Conops": {
+            "docType": "Conops",
+            "docCode": "co",
+            "docContainerCode": "coc"
+        },
+        "UseCase": {
+            "docType": "Use Case",
+            "docCode": "uc",
+            "docContainerCode": "ucc"
+        }
+    },
+    "Template": {
+        "collectionName": "Templates",
+        "journalCode": "tlj",
+        "CoverPage": {
+            "docType": "Cover Page",
+            "docCode": "cp",
+            "docContainerCode": "cpc"
+        },
+        "DocTemplate": {
+            "docType": "Document Template",
+            "docCode": "tl",
+            "docContainerCode": "tlc"
+        }
+    },
+    "Requirement": {
+        "collectionName": "Requirements",
+        "docType": "Requirement",
+        "docCode": "re",
+        "docContainerCode": "rec",
+        "journalCode": "rej"
+    },
+    "Design": {
+        "collectionName": "Designs",
+        "docType": "Design",
+        "docCode": "de",
+        "docContainerCode": "dec",
+        "journalCode": "dej"
+    },
+    "EFFBD": {
+        "collectionName": "EFFBD",
+        "docType": "EFFBD",
+        "docCode": "ef",
+        "docContainerCode": "efc",
+        "journalCode": "efj"
+    },
+    "Discussion": {
+        "collectionName": "Discussions",
+        "docType": "Discussion",
+        "docCode": "ds",
+        "docContainerCode": "dsc",
+        "journalCode": "dsj"
+    },
+    "History": {
+        "collectionName": "History",
+        "docType": "History",
+        "docCode": "hi",
+        "docContainerCode": "hic",
+        "journalCode": "hij"
+    },
+    "UML": {
+        "collectionName": "UML",
+        "docType": "UML",
+        "docCode": "um",
+        "docContainerCode": "umc",
+        "journalCode": "umj"
+    },
+    "SysML": {
+        "collectionName": "SysML",
+        "docType": "SysML",
+        "docCode": "sy",
+        "docContainerCode": "syc",
+        "journalCode": "syj"
+    },
+    "N2Chart": {
+        "collectionName": "N2Charts",
+        "docType": "N2Chart",
+        "docCode": "n2",
+        "docContainerCode": "n2c",
+        "journalCode": "n2j"
+    },
+    "FTA": {
+        "collectionName": "FTA",
+        "docType": "FTA",
+        "docCode": "ft",
+        "docContainerCode": "ftc",
+        "journalCode": "ftj"
+    },
+    "UI": {
+        "collectionName": "UI",
+        "docType": "UI",
+        "docCode": "ui",
+        "docContainerCode": "uic",
+        "journalCode": "uij"
+    },
+    "JourneyMap": {
+        "collectionName": "JourneyMaps",
+        "docType": "Journey Map",
+        "docCode": "jm",
+        "docContainerCode": "jmc",
+        "journalCode": "jmj"
+    },
+    "Test": {
+        "collectionName": "Tests",
+        "journalCode": "tsj",
+        "Integration": {
+            "testType": "Integration",
+            "codes": {
+                "Test": {
+                    "docType": "Test",
+                    "docCode": "it",
+                    "docContainerCode": "itc"
+                },
+                "Status": {
+                    "docType": "Status",
+                    "docCode": "its",
+                    "docContainerCode": "itsc"
+                },
+                "Report": {
+                    "docType": "Report",
+                    "docCode": "itr",
+                    "docContainerCode": "itrc"
+                }
+            }
+        },
+        "Validation": {
+            "testType": "Validation",
+            "codes": {
+                "Test": {
+                    "docType": "Test",
+                    "docCode": "vt",
+                    "docContainerCode": "vtc"
+                },
+                "Status": {
+                    "docType": "Status",
+                    "docCode": "vts",
+                    "docContainerCode": "vtsc"
+                },
+                "Report": {
+                    "docType": "Report",
+                    "docCode": "vtr",
+                    "docContainerCode": "vtrc"
+                }
+            }
+        },
+        "Acceptance": {
+            "testType": "Acceptance",
+            "codes": {
+                "Test": {
+                    "docType": "Test",
+                    "docCode": "at",
+                    "docContainerCode": "atc"
+                },
+                "Status": {
+                    "docType": "Status",
+                    "docCode": "ats",
+                    "docContainerCode": "atsc"
+                },
+                "Report": {
+                    "docType": "Report",
+                    "docCode": "atr",
+                    "docContainerCode": "atrc"
+                }
+            }
+        }
+    },
+    "Project": {
+        "collectionName": "Projects",
+        "docType": "Project",
+        "docCode": "pr",
+        "docContainerCode": "prc",
+        "journalCode": "prj"
+    },
+    "Manual": {
+        "collectionName": "Manuals",
+        "docType": "Manual",
+        "docCode": "mn",
+        "docContainerCode": "mnc",
+        "journalCode": "mnj"
+    },
+    "Checklist": {
+        "collectionName": "Checklists",
+        "docType": "Checklist",
+        "docCode": "cl",
+        "docContainerCode": "clc",
+        "journalCode": "clj"
+    },
+    "Review": {
+        "collectionName": "Reviews",
+        "docType": "Review",
+        "docCode": "rv",
+        "docContainerCode": "rvc",
+        "journalCode": "rvj"
+    },
+    "Comment": {
+        "collectionName": "Comments",
+        "docType": "Comment",
+        "docCode": "cm",
+        "docContainerCode": "cmc",
+        "journalCode": "cmj"
+    },
+    "Document": {
+        "collectionName": "Documents",
+        "journalCode": "doj",
+        "Report": {
+            "docType": "Report",
+            "docCode": "rp",
+            "docContainerCode": "rpc"
+        },
+        "Plan": {
+            "docType": "Plan",
+            "docCode": "pl",
+            "docContainerCode": "plc"
+        },
+        "Process": {
+            "docType": "Process",
+            "docCode": "ps",
+            "docContainerCode": "psc"
+        },
+        "General": {
+            "docType": "General",
+            "docCode": "gl",
+            "docContainerCode": "glc"
+        }
+    },
+    "Risk": {
+        "collectionName": "Risks",
+        "docType": "Risk",
+        "docCode": "rk",
+        "docContainerCode": "rkc",
+        "journalCode": "rkj"
+    },
+    "Team": {
+        "collectionName": "Teams",
+        "docType": "Team",
+        "docCode": "tm",
+        "docContainerCode": "tmc",
+        "journalCode": "tmj"
+    },
+    "User": {
+        "collectionName": "Users",
+        "docCode": "ur",
+        "docType": "User",
+        "docContainerCode": "urc"
+    },
+    "Role": {
+        "collectionName": "Roles",
+        "docType": "Role",
+        "docCode": "ro",
+        "docContainerCode": "roc"
+    },
+    "Workflow": {
+        "collectionName": "Workflows",
+        "journalCode": "wfj",
+        "docType": "Workflow",
+        "docCode": "wf",
+        "docContainerCode": "wfc"
+    },
+    "Plan": {
+        "collectionName": "Plan",
+        "journalCode": "plj",
+        "WBS": {
+            "docType": "WBS",
+            "docCode": "wbs",
+            "docContainerCode": "wbsc"
+        }
+    },
+    "Product": {
+        "collectionName": "Products",
+        "docType": "Product",
+        "docCode": "pd",
+        "docContainerCode": "pdc"
+    }
+}

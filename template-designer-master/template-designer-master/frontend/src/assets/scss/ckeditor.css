@@ -1,0 +1,205 @@
+:root {
+  --pl: '10px';
+  --pr: '10px';
+  --pt: '10px';
+  --pb: '10px';
+  --h: '297mm';
+  --w: '210mm';
+  --restricted-paddingColor: 'white';
+  --paddingColor: linear-gradient(to bottom, white, white 100%),
+
+    linear-gradient(to bottom, rgb(231, 233, 233) 0%, rgb(222, 225, 226) 100%);
+
+  /* --paddingColor: white; */
+  --background-clip: content-box, padding-box
+}
+
+.ck-editor__editable_inline {
+  /* padding-left: var(--pl);
+    padding-right: var(--pr);
+    padding-top: var(--pt);
+    padding-bottom: var(--pb); */
+  /* padding-left: 50px; */
+  /* border: 1px hsl(0, 0%, 82.7%) solid; */
+  border-radius: var(--ck-border-radius);
+  /* background: rgb(188, 59, 59); */
+  min-height: var(--h);
+  min-width: var(--w);
+  max-height: var(--h);
+  max-width: var(--w);
+
+  /* The "page" should cast a slight shadow (3D illusion). */
+  /* box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.1); */
+  /* Center the "page". */
+  margin: 0 auto;
+  /* overflow: auto; */
+  background-image: var(--paddingColor);
+  background-clip: var(--background-clip);
+}
+
+.document-editor {
+
+  border-radius: var(--ck-border-radius);
+  /* Set vertical boundaries for the document editor. */
+  max-height: 1500px;
+  /* This element is a flex container for easier rendering. */
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  /* overflow: auto; */
+}
+
+.document-editor__toolbar {
+  /* Make sure the toolbar container is always above the editable. */
+  /* Create the illusion of the toolbar floating over the editable. */
+  box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.2);
+  /* Use the CKEditor CSS variables to keep the UI consistent. */
+  border-bottom: 0px solid var(--ck-color-toolbar-border);
+  margin: 0 auto;
+  /* overflow: auto; */
+
+}
+
+/* Adjust the look of the toolbar inside the container. */
+.document-editor__toolbar .ck-toolbar {
+  border: 0;
+  margin: 0 auto;
+  /* overflow: auto; */
+  border-radius: 0;
+
+}
+
+/* Make the editable container look like the inside of a native word processor application. */
+#document-editor__editable-container {
+  /* padding: calc(2 * var(--ck-spacing-large)); */
+  /* background: var(--ck-color-base-foreground); */
+  /* Make it possible to scroll the "page" of the edited content. */
+  /* overflow-y: scroll; */
+  margin: 0 auto;
+  /* overflow: auto; */
+
+  border-color: white;
+}
+
+#document-editor__editable-container .ck-content {
+  /* Set the dimensions of the "page". */
+
+  /* Keep the "page" off the boundaries of the container. */
+  /* // padding: 50px; */
+  padding-left: var(--pl);
+  padding-right: var(--pr);
+  padding-top: var(--pt);
+  padding-bottom: var(--pb);
+  border: 1px hsl(0, 0%, 82.7%) solid;
+  border-radius: var(--ck-border-radius);
+  background: white;
+  /* height: var(--h);
+    width: var(--w); */
+  /* The "page" should cast a slight shadow (3D illusion). */
+  box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.1);
+
+  /* Center the "page". */
+  margin: 0 auto;
+  /* overflow: auto; */
+  background-image: var(--paddingColor);
+  background-clip: var(--background-clip);
+}
+
+#document-editor__editable-container-restricted .ck-content {
+  /* Set the dimensions of the "page". */
+
+  /* Keep the "page" off the boundaries of the container. */
+  /* // padding: 50px; */
+  padding-left: var(--pl);
+  padding-right: var(--pr);
+  padding-top: var(--pt);
+  padding-bottom: var(--pb);
+  border: 1px hsl(0, 0%, 82.7%) solid;
+  border-radius: var(--ck-border-radius);
+  background: white;
+  /* height: var(--h);
+  width: var(--w); */
+  /* The "page" should cast a slight shadow (3D illusion). */
+  box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.1);
+
+  /* Center the "page". */
+  margin: 0 auto;
+  /* overflow: auto; */
+  background-image: var(--restricted-paddingColor);
+  background-clip: var(--background-clip);
+}
+
+.ck.ck-dropdown__panel {
+  max-height: 400px;
+  /* or anything else, more likely ~300px or so */
+  overflow-y: auto;
+}
+
+/* 
+.ck.ck-dropdown__panel {
+    max-height: 60vh;
+    max-height: var(--ck-editor-dropdown-max-height, 60vh);
+    overflow-y: auto;
+} */
+
+/* ckeditor5-table/theme/tablecaption.css */
+.ck-content .ck-editor__editable .table>figcaption {
+  display: table-caption;
+  caption-side: top;
+  word-break: break-word;
+  text-align: center;
+  color: var(--ck-color-table-caption-text);
+  background-color: var(--ck-color-table-caption-background);
+  padding: 0.6em;
+  font-size: 0.75em;
+  outline-offset: -1px;
+}
+
+/* ckeditor5-table/theme/table.css */
+.ck-content .ck-editor__editable .table {
+  margin: 0.9em auto;
+  display: table;
+}
+
+/* ckeditor5-table/theme/table.css */
+.ck-content .ck-editor__editable .table table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px double hsl(0, 0%, 70%);
+}
+
+/* ckeditor5-table/theme/table.css */
+.ck-content .table table td,
+.ck-content .table table th {
+  min-width: 2em;
+  padding: 0.4em;
+  border: 1px solid hsl(0, 0%, 75%);
+}
+
+/* ckeditor5-table/theme/table.css */
+.ck-content .table table th {
+  font-weight: bold;
+  background: hsla(0, 0%, 0%, 5%);
+}
+
+/* ckeditor5-table/theme/table.css */
+.ck-content[dir="rtl"] .table th {
+  text-align: right;
+}
+
+/* ckeditor5-table/theme/table.css */
+.ck-content[dir="ltr"] .table th {
+  text-align: left;
+}
+
+/* ckeditor5-page-break/theme/pagebreak.css */
+.ck-content .page-break {
+  position: relative;
+  clear: both;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

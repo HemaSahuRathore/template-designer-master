@@ -1,0 +1,8 @@
+PORT= ex. 5001
+FRONTEND_BASE_URL="url on which frontend is currently running " ex. http://localhost:2001
+ARANGODB_URL= 
+ARANGODB_PORT= 
+ARANGODB_USERNAME=
+ARANGODB_PASSWORD=
+ARANGODB_DATABASE_NAME= 
+JWT_KEY=

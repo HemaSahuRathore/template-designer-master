@@ -1,0 +1,4 @@
+VUE_APP_SERVER=   ex /api/se
+VUE_APP_FRONTEND_BASE_URL="your frontend url" ex. http://localhost:2001
+VUE_APP_BACKEND_BASE_URL="your backend url" ex. http://localhost:5001
+

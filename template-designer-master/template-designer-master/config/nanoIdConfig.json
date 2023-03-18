@@ -1,0 +1,6 @@
+{
+    "nanoIdLength": 10,
+    "nanoIdMaxLength": 16,
+    "nanoReferenceIdLength": 6,
+    "nanoReferenceIdMaxLength": 10
+}
